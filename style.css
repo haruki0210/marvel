@@ -1,0 +1,107 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*cssコード*/
+header {
+	text-align: center;
+	background-color: black;
+}
+
+.head-menu a:link {
+	color: gray;
+}
+
+.head-menu a:visited {
+	color:  gray;
+}
+
+.head-menu a:hover {
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+.head-menu {
+	padding-top: 20px;
+}
+
+.head-menu li{
+	color: white;
+	display: inline;
+	margin: 0 50px;
+}
+
+
+
+.head-img img {
+	width: 100%;
+}
+
+
+.head-img {
+	position: relative;
+}
+
+
+.disney-img {
+	position: absolute;
+	top: 190px;
+	left: 90px;
+}
+
+.disney-txt {
+	color:  white;
+	position: absolute;
+	top: 370px;
+	left: 90px;
+
+}
+
+/*youtube(wannda)*/
+
+.wanda {
+	height: 540px;
+    width: 1190px;
+    margin: 0 auto;
+    border: solid 2px #DDDDDD;
+}
+
+.wanda-txt {
+	float: left;
+	width: 280px;
+	padding-left: 30px;
+
+}
+
+.wanda-txt h2 {
+	font-weight: normal;
+    padding-bottom: 20px;
+    
+}
+
+.wanda-txt p{
+	font-size: 90%;
+	color: #999999;
+}
+
+iframe {
+	float: right;
+}
