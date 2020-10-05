@@ -140,14 +140,14 @@ iframe {
 }
 
 .list-news {
-	display:flex;
-    　　flex-flow:wrap;
+	display: flex;
+    　　flex-flow: wrap;
     　　width: 1190px;
     　　margin: 0 auto;
 }
 
 .list-news li {
-	width:50%;
+	width: 50%;
 }
 
 .flex-txt {
@@ -172,7 +172,7 @@ iframe {
 }
 
 .list-goods {
-	display:flex;
+	display: flex;
     　　width: 1190px;
     　　height: 800px;
     　　margin: 0 auto;
@@ -180,8 +180,8 @@ iframe {
 }
 
 .warp {
-　　    display:flex;
-    　　flex-flow:wrap;
+　　    display: flex;
+    　　flex-flow: wrap;
 }
 
 .mar-ave img {
@@ -301,26 +301,26 @@ iframe {
 }
 
 .round > li{
-      list-style:none;
-      width:100px;
+      list-style: none;
+      width: 100px;
       margin: 0 auto;
 }
 
 .round{
-      display:flex;
-      flex-flow:row nowrap;
+      display: flex;
+      flex-flow: row nowrap;
       width: 1190px;
       margin: 0 auto;
 }
 .round > li > *{
-      display:block;
-      vertical-align:middle;
+      display: block;
+      vertical-align: middle;
 }
 
 .round p {
       word-break: break-all;
       color: #999999;
-      text-align:center!important;
+      text-align: center!important;
 }
 
 .round img {
