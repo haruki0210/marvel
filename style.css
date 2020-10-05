@@ -172,11 +172,11 @@ iframe {
 }
 
 .list-goods {
+    　　 height: 800px;
+    　 　margin: 0 auto;
+    　 　border: solid 2px #DDDDDD;
 	display: flex;
-    　　width: 1190px;
-    　　height: 800px;
-    　　margin: 0 auto;
-    　　border: solid 2px #DDDDDD;
+        width: 1190px;
 }
 
 .warp {
