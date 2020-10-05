@@ -1,4 +1,14 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
 
 li {
   list-style: none;
@@ -130,14 +140,14 @@ iframe {
 }
 
 .list-news {
-    　　 width: 1190px;
-    　　 margin: 0 auto;
-	display: flex;
-    　　 flex-flow: wrap;
+	display:flex;
+    flex-flow:wrap;
+    width: 1190px;
+    margin: 0 auto;
 }
 
 .list-news li {
-	width: 50%;
+	width:50%;
 }
 
 .flex-txt {
@@ -162,16 +172,16 @@ iframe {
 }
 
 .list-goods {
-    　　 height: 800px;
-    　 　margin: 0 auto;
-    　 　border: solid 2px #DDDDDD;
-	display: flex;
-        width: 1190px;
+	display:flex;
+    width: 1190px;
+    height: 800px;
+    margin: 0 auto;
+    border: solid 2px #DDDDDD;
 }
 
 .warp {
-　　    display: flex;
-    　　flex-flow: wrap;
+	display:flex;
+    flex-flow:wrap;
 }
 
 .mar-ave img {
@@ -183,7 +193,7 @@ iframe {
 }
 
 .mar-ave h2 {
-        width: 210px;
+    width: 210px;
 	margin: 0 auto;
 }
 
@@ -203,7 +213,7 @@ iframe {
 }
 
 .goods-ave img {
-        float: left;
+    float: left;
 }
 
 .goods-ave h2{
@@ -229,7 +239,7 @@ iframe {
 	font-weight: normal;
 	padding-top: 20px;
 	padding-left: 30px;
-        padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -247,8 +257,8 @@ iframe {
 
 .cinema {
 	padding-top: 50px;
-        width: 1190px;
-        margin: 0 auto;
+    width: 1190px;
+    margin: 0 auto;
 	display: flex;
 	
 }
@@ -291,226 +301,226 @@ iframe {
 }
 
 .round > li{
-      list-style: none;
-      width: 100px;
-      margin: 0 auto;
+  list-style:none;
+  width:100px;
+  margin: 0 auto;
 }
 
 .round{
-      display: flex;
-      flex-flow: row nowrap;
-      width: 1190px;
-      margin: 0 auto;
+  display:flex;
+  flex-flow:row nowrap;
+  width: 1190px;
+  margin: 0 auto;
 }
 .round > li > *{
-      display: block;
-      vertical-align: middle;
+    display:block;
+    vertical-align:middle;
 }
 
 .round p {
-      word-break: break-all;
-      color: #999999;
-      text-align: center!important;
+    word-break: break-all;
+    color: #999999;
+    text-align:center!important;
 }
 
 .round img {
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 
 }
 
 /*キャラクター一覧*/
 .blue-btn {
-      width: 1190px;
-      margin: 0 auto;
-      padding-top: 10px;
+	width: 1190px;
+	margin: 0 auto;
+	padding-top: 10px;
 }
 
 .btn-flat-border {
-　　　 float: right;
-      display: inline-block;
-      padding: 0.2em 1em;
-      text-decoration: none;
-      color: #67c5ff;
-      border: solid 2px #67c5ff;
-      border-radius: 8px;
-      transition: .4s;
+	float: right;
+    display: inline-block;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 8px;
+    transition: .4s;
 }
 
 .btn-flat-border:hover {
-      background: #67c5ff;
-      color: white;
+    background: #67c5ff;
+    color: white;
 }
 
 /*item*/
 .item h1 {
-      clear: right;
-      font-weight: normal;
-      text-align: center;
-      padding-top: 20px;
-      letter-spacing: 0.1em;
+	clear: right;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 0.1em;
 
 }
 
 .flex {
-      clear: right;
-      width: 1190px;
-      margin: 0 auto;
-      padding: 2.5% 0;
-      display: flex;
-      justify-content: center;
+	clear: right;
+	width: 1190px;
+	margin: 0 auto;
+    padding: 2.5% 0;
+    display: flex;
+    justify-content: center;
 }
 
 .flex p {
-      width: 210px;
-      margin: 0 auto;
+	width: 210px;
+	margin: 0 auto;
 }
 
 .flex > * {
-      padding: 0 40px;
+	padding: 0 40px;
 }
 
 .flex li {
-      border: solid 2px #DDDDDD;
+    border: solid 2px #DDDDDD;
 }
 
 .flex a:link {
-      color: black;
+	color: black;
 }
 
 .flex a:visited {
-      color: black;
+	color: black;
 }
 
 .flex a:hover {
-      text-decoration: underline;
-      text-decoration-color: black;
+	text-decoration: underline;
+	text-decoration-color: black;
 }
 
 /*SNS*/
 
 .sns-width {
-      width: 1190px;
-      margin: 0 auto;
+	width: 1190px;
+	margin: 0 auto;
 }
 
 .sns {
-      float: right;
-      padding-top: 11px;
-      padding-right: 20px;
-      color: #666666;
-      font-size: 80%;
+	float: right;
+    padding-top: 11px;
+    padding-right: 20px;
+    color: #666666;
+    font-size: 80%;
 }
 
 /*一覧*/
 
 .sns-btn {
-      width: 1190px;
-      margin: 0 auto;
+	width: 1190px;
+	margin: 0 auto;
 }
 
 .btn-list {
-      float: right;
-      display: inline-block;
-      padding: 0.1em 0.5em;
-      text-decoration: none;
-      color: #67c5ff;
-      border: solid 2px #67c5ff;
-      border-radius: 8px;
-      transition: .4s;
-      margin-top: 3px;
+	float: right;
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 8px;
+    transition: .4s;
+    margin-top: 3px;
 }
 
 .btn-list:hover {
-      background: #67c5ff;
-      color: white;
+    background: #67c5ff;
+    color: white;
 }
 
 /* ボタン全体 */
 .flowbtn5{
-      font-family:'Times New Roman',sans-serif;
-      border-radius:13px;		
-      position:relative;
-      display:inline-block;
-      width:37px;
-      height:37px;
-      font-size:20px;
-      color:#fff!important;
-      transition:.5s;
-      text-decoration:none;
+    font-family:'Times New Roman',sans-serif;
+    border-radius:13px;		
+    position:relative;
+    display:inline-block;
+    width:37px;
+    height:37px;
+    font-size:20px;
+    color:#fff!important;
+    transition:.5s;
+    text-decoration:none;
 }
 
 /* アイコンをど真ん中に*/
 .flowbtn5 i{
-      position:absolute;
-      top:50%;
-      left:50%;
-      -ms-transform:translate(-50%,-50%);
-      -webkit-transform:translate(-50%,-50%);
-      transform:translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
 }
 
 /* Twitter */
 .fl_tw1{
-      background:#55acee;
+    background:#55acee;
 }
 
 /* Facebook */
 .fl_fb1{
-      background:#3b5998;
+    background:#3b5998;
 }
 
 /* YouTube */
 .fl_yu1{
-      background:#fc0d1c;
+    background:#fc0d1c;
 }
 
 /* Instagram紫グラデ背景色 */
 .insta_btn5 {
-      background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-      background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
+    background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
 }
 /* Instagramオレンジグラデ背景色 */
 .insta_btn5:before{
-      content: '';
-      position:absolute;
-      top:17px;
-      left:-1px;
-      width:35px;
-      height:22px;
-      background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
-      background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+    content: '';
+    position:absolute;
+    top:17px;
+    left:-1px;
+    width:35px;
+    height:22px;
+    background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+    background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
 }
 /* Instagramアイコン調整 */
 .insta_btn5 .fa-instagram{
-      font-size:23px;	
+    font-size:23px;	
 }
 
 /* アイコンボタンにマウスホバーした時の指定*/
 .flowbtn5:hover{
-       -webkit-transform:translateY(-5px);
-       -ms-transform:translateY(-5px);
-       transform:translateY(-5px);
-       text-decoration:none;
+    -webkit-transform:translateY(-5px);
+    -ms-transform:translateY(-5px);
+    transform:translateY(-5px);
+    text-decoration:none;
 }
 
 /* ulタグの内側余白を０にする */
 ul.snsbtniti{
-       padding:0!important;
-       margin-bottom: 35px;
+    padding:0!important;
+    margin-bottom: 35px;
 }
 
 /* アイコンボタン全体の位置 */
 .snsbtniti{
-        display:flex;
-        float: right;
+    display:flex;
+    float: right;
 }
 
 /* アイコンボタン同士の余白調整 */
 .snsbtniti li{
 	margin: 0 6px;
-        text-align:center!important;
+    text-align:center!important;
 }
 
 
@@ -518,10 +528,11 @@ ul.snsbtniti{
 /*footer前*/
 
 .foot-list li{
-        clear: both;
-        padding-right:20px;
-        padding-left: 20px;
-        padding-bottom: 50px;
+    clear: both;
+    padding-top: 30px;
+    padding-right:20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 .foot-list {
@@ -591,3 +602,6 @@ footer p {
 	text-decoration: underline;
 	text-decoration-color: white;
 }
+
+
+	
