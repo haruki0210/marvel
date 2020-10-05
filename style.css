@@ -141,9 +141,9 @@ iframe {
 
 .list-news {
 	display: flex;
-    　　flex-flow: wrap;
-    　　width: 1190px;
-    　　margin: 0 auto;
+    　　 flex-flow: wrap;
+    　　 width: 1190px;
+    　　 margin: 0 auto;
 }
 
 .list-news li {
@@ -601,4 +601,3 @@ footer p {
 	text-decoration: underline;
 	text-decoration-color: white;
 }
-
