@@ -19,11 +19,17 @@ a {
 }
 
 
+
+
+
 /*cssコード*/
+
 header {
 	text-align: center;
 	background-color: black;
 }
+
+
 
 .head-menu a:link {
 	color: gray;
@@ -79,14 +85,14 @@ header {
 
 .wanda {
 	height: 540px;
-    width: 1190px;
+    width: 1195px;
     margin: 0 auto;
     border: solid 2px #DDDDDD;
 }
 
 .wanda-txt {
 	float: left;
-	width: 280px;
+	width: 270px;
 	padding-left: 30px;
 
 }
@@ -107,4 +113,492 @@ iframe {
 }
 
 
+/*NEWS*/
+
+.news {
+	padding-bottom: 60px;
+}
+
+.news h1 {
+	font-weight: normal;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 0.1em;
+}
+
+.list-news a:link {
+	color: black;
+}
+
+.list-news a:visited {
+	color: black;
+}
+
+.list-news a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+.list-news {
+	display:flex;
+    　　flex-flow:wrap;
+    　　width: 1190px;
+    　　margin: 0 auto;
+}
+
+.list-news li {
+	width:50%;
+}
+
+.flex-txt {
+	font-size: 120%;
+	display: flex;
+	padding-bottom: 15px;	
+}
+
+/*news2*/
+
+.list-goods a:link {
+	color: black;
+}
+
+.list-goods a:visited {
+	color: black;
+}
+
+.list-goods a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+.list-goods {
+	display:flex;
+    　　width: 1190px;
+    　　height: 800px;
+    　　margin: 0 auto;
+    　　border: solid 2px #DDDDDD;
+}
+
+.warp {
+　　    display:flex;
+    　　flex-flow:wrap;
+}
+
+.mar-ave img {
+	border-bottom: solid 2px #DDDDDD;
+}
+
+.img-ave img {
+	border-bottom: solid 2px #DDDDDD;
+}
+
+.mar-ave h2 {
+        width: 210px;
+	margin: 0 auto;
+}
+
+.mar-ave p {
+	width: 210px;
+	margin: 0 auto;
+}
+
+.img-ave h2 {
+	width: 210px;
+	margin: 0 auto;
+}
+
+.img-ave p {
+	width: 210px;
+	margin: 0 auto;
+}
+
+.goods-ave img {
+        float: left;
+}
+
+.goods-ave h2{
+	float: right;
+	padding-right: 30px;
+	width: 210px;
+	margin: 0 auto;
+}
+
+.goods-ave p {
+	float: right;
+	padding-right: 30px;
+	width: 210px;
+	margin: 0 auto;
+}
+
+.find-for p {
+	width: 280px;
+
+}
+
+.list-goods h2 {
+	font-weight: normal;
+	padding-top: 20px;
+	padding-left: 30px;
+        padding-bottom: 20px;
+}
+
+
+.list-goods p {
+	padding-left: 30px;
+	font-size: 90%;
+	color: #999999;
+}
+
+
+
+
+
+/*cinema*/
+
+.cinema {
+	padding-top: 50px;
+        width: 1190px;
+        margin: 0 auto;
+	display: flex;
+	
+}
+
+.cinema-txt a:link {
+	color: black;
+}
+
+.cinema-txt a:visited {
+	color: black;
+}
+
+.cinema-txt a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+.cinema-txt {
+	width: 1190px;
+	padding-top: 20px;
+	padding-left: 30px;
+	border: solid 2px #DDDDDD;
+}
+
+.cinema-txt p {
+	color: #999999;
+}
+
+.cinema-txt h3 {
+	font-weight: bolder;
+}
+
+/*character*/
+
+.character h1 {
+	font-weight: normal;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 0.1em;
+}
+
+.round > li{
+      list-style:none;
+      width:100px;
+      margin: 0 auto;
+}
+
+.round{
+      display:flex;
+      flex-flow:row nowrap;
+      width: 1190px;
+      margin: 0 auto;
+}
+.round > li > *{
+      display:block;
+      vertical-align:middle;
+}
+
+.round p {
+      word-break: break-all;
+      color: #999999;
+      text-align:center!important;
+}
+
+.round img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+
+}
+
+/*キャラクター一覧*/
+.blue-btn {
+      width: 1190px;
+      margin: 0 auto;
+      padding-top: 10px;
+}
+
+.btn-flat-border {
+　　　 float: right;
+      display: inline-block;
+      padding: 0.2em 1em;
+      text-decoration: none;
+      color: #67c5ff;
+      border: solid 2px #67c5ff;
+      border-radius: 8px;
+      transition: .4s;
+}
+
+.btn-flat-border:hover {
+      background: #67c5ff;
+      color: white;
+}
+
+/*item*/
+.item h1 {
+      clear: right;
+      font-weight: normal;
+      text-align: center;
+      padding-top: 20px;
+      letter-spacing: 0.1em;
+
+}
+
+.flex {
+      clear: right;
+      width: 1190px;
+      margin: 0 auto;
+      padding: 2.5% 0;
+      display: flex;
+      justify-content: center;
+}
+
+.flex p {
+      width: 210px;
+      margin: 0 auto;
+}
+
+.flex > * {
+      padding: 0 40px;
+}
+
+.flex li {
+      border: solid 2px #DDDDDD;
+}
+
+.flex a:link {
+      color: black;
+}
+
+.flex a:visited {
+      color: black;
+}
+
+.flex a:hover {
+      text-decoration: underline;
+      text-decoration-color: black;
+}
+
+/*SNS*/
+
+.sns-width {
+      width: 1190px;
+      margin: 0 auto;
+}
+
+.sns {
+      float: right;
+      padding-top: 11px;
+      padding-right: 20px;
+      color: #666666;
+      font-size: 80%;
+}
+
+/*一覧*/
+
+.sns-btn {
+      width: 1190px;
+      margin: 0 auto;
+}
+
+.btn-list {
+      float: right;
+      display: inline-block;
+      padding: 0.1em 0.5em;
+      text-decoration: none;
+      color: #67c5ff;
+      border: solid 2px #67c5ff;
+      border-radius: 8px;
+      transition: .4s;
+      margin-top: 3px;
+}
+
+.btn-list:hover {
+      background: #67c5ff;
+      color: white;
+}
+
+/* ボタン全体 */
+.flowbtn5{
+      font-family:'Times New Roman',sans-serif;
+      border-radius:13px;		
+      position:relative;
+      display:inline-block;
+      width:37px;
+      height:37px;
+      font-size:20px;
+      color:#fff!important;
+      transition:.5s;
+      text-decoration:none;
+}
+
+/* アイコンをど真ん中に*/
+.flowbtn5 i{
+      position:absolute;
+      top:50%;
+      left:50%;
+      -ms-transform:translate(-50%,-50%);
+      -webkit-transform:translate(-50%,-50%);
+      transform:translate(-50%,-50%);
+}
+
+/* Twitter */
+.fl_tw1{
+      background:#55acee;
+}
+
+/* Facebook */
+.fl_fb1{
+      background:#3b5998;
+}
+
+/* YouTube */
+.fl_yu1{
+      background:#fc0d1c;
+}
+
+/* Instagram紫グラデ背景色 */
+.insta_btn5 {
+      background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+      background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
+}
+/* Instagramオレンジグラデ背景色 */
+.insta_btn5:before{
+      content: '';
+      position:absolute;
+      top:17px;
+      left:-1px;
+      width:35px;
+      height:22px;
+      background:-webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+      background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+}
+/* Instagramアイコン調整 */
+.insta_btn5 .fa-instagram{
+      font-size:23px;	
+}
+
+/* アイコンボタンにマウスホバーした時の指定*/
+.flowbtn5:hover{
+       -webkit-transform:translateY(-5px);
+       -ms-transform:translateY(-5px);
+       transform:translateY(-5px);
+       text-decoration:none;
+}
+
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+       padding:0!important;
+       margin-bottom: 35px;
+}
+
+/* アイコンボタン全体の位置 */
+.snsbtniti{
+        display:flex;
+        float: right;
+}
+
+/* アイコンボタン同士の余白調整 */
+.snsbtniti li{
+	margin: 0 6px;
+        text-align:center!important;
+}
+
+
+
+/*footer前*/
+
+.foot-list li{
+        clear: both;
+        padding-right:20px;
+        padding-left: 20px;
+        padding-bottom: 50px;
+}
+
+.foot-list {
+	border-top: solid 2px #DDDDDD;
+	width: 1190px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.foot-list a:link {
+	color: gray;
+}
+
+.foot-list a:visited {
+	color:  gray;
+}
+
+.foot-list a:hover {
+	color: gray;
+	text-decoration: underline;
+	text-decoration-color: #333333;
+}
+
+/*footer*/
+
+footer {
+	width: 100%;
+	height: 95px;
+	background-color: black;
+}
+
+footer p {
+	width: 1190px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	font-size: 90%;
+	color: white;
+	padding-top: 30px;
+}
+
+.foot {
+	width: 1190px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	font-size: 80%;
+}
+
+.foot li {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.foot a:link {
+	color: white;
+}
+
+.foot a:visited {
+	color:  white;
+}
+
+.foot a:hover {
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
 
